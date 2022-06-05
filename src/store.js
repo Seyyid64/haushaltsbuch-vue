@@ -1,10 +1,9 @@
-import { eintraege } from "./eintraege";
 import { reactive, readonly } from "vue";
 
 
 
 const state = reactive({
-  eintraege,
+  eintraege: [],
 });
 
 const getters = {
